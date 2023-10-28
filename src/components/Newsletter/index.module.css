@@ -1,0 +1,37 @@
+.newsletter {
+  padding: 0px 150px;
+}
+.wrapper {
+  background-color: rgba(71, 71, 71, 0.5);
+  padding: 93px 0px;
+}
+.flex {
+  gap: 9px;
+  margin-top: 42px;
+}
+.inputName {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  width: 276px;
+  height: 53px;
+}
+.inputEmail {
+  width: 276px;
+  height: 53px;
+}
+.btn {
+  width: 116px;
+  height: 53px;
+  border-radius: 0px 8px 8px 0px !important;
+  color: var(--color-black);
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 137%;
+}
+@media (max-width: 992px) {
+  .newsletter {
+    padding: 40px;
+  }
+}

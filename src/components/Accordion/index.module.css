@@ -1,0 +1,5 @@
+.minus {
+  color: var(--color-black);
+  font-weight: 700;
+  margin-top: -2px;
+}

@@ -1,0 +1,26 @@
+.inputContainer {
+  background-color: var(--color-gray);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 438px;
+  height: 74px;
+  border-radius: 43px;
+}
+.inputWrapper {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+input {
+  background-color: var(--color-gray);
+  outline: none;
+  border: none;
+  width: 100%;
+  opacity: 0.3;
+  color: var(--color-white);
+}
+.icon {
+  opacity: 0.3;
+  margin-left: 28px;
+}

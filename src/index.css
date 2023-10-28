@@ -1,13 +1,84 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+  --color-primary: #111;
+  --color-secondary: #1d1d1d;
+  --color-black: #000;
+  --color-gray: #282929;
+  --color-light-gray: #616160;
+  --color-white: #fff;
+  --color-orange: #e3b748;
+  --color-red: rgba(195, 34, 34, 1);
+
+  --extra-small-screen: 480px;
+  --small-screen: 768px;
+  --medium-screen: 992px;
+  --large-screen: 1200px;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  /* background-color: var(--color-primary); */
+  background-color: var(--color-secondary);
+  color: var(--color-white);
+  overflow-x: hidden;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+.MuiAccordionSummary-root {
+  background-color: var(--color-secondary) !important;
+  color: var(--color-white) !important;
+  border: 0px !important;
+  padding: 10px !important;
+  border-top: 0.5px solid var(--color-light-gray) !important;
+}
+.MuiCollapse-root {
+  background-color: var(--color-secondary) !important;
+  color: var(--color-light-gray);
+}
+.swiper-slide {
+  width: auto !important;
+}
+.react-multi-carousel-track {
+  /* gap: 10px !important; */
+  width: 2000px !important;
+  /* width: 2200px !important; */
+  /* width: min-content; */
+}
+/* .react-multi-carousel-list {
+  width: 102% !important;
+} */
+
+.react-multi-carousel-list {
+  width: 99% !important;
+}
+
+.MuiList-root {
+  /* background-color: red !important; */
+}
+.MuiList-padding {
+  /* background-color: red !important; */
+}
+.MuiMenu-list {
+  background-color: var(--color-black) !important;
+  color: var(--color-white);
+  border: 2px solid var(--color-orange) !important;
+  overflow: hidden;
 }

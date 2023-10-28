@@ -1,0 +1,49 @@
+.client {
+  padding: 0px 150px;
+  margin-bottom: 170px;
+}
+.wrapper {
+  position: relative;
+}
+.clientContainer {
+  /* display: flex;
+  align-items: center;
+  gap: 20px; */
+  margin-top: 96px;
+}
+
+.swipeableClass {
+  gap: 10px !important;
+}
+
+.leftArrow {
+  position: absolute;
+  top: 0;
+  right: 110px;
+  cursor: pointer;
+}
+.rightArrow {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  cursor: pointer;
+}
+.titleContainer {
+  width: 400px;
+}
+/* rightArrow
+@media (max-width: 992px) {
+  .client {
+    padding: 40px;
+  }
+} */
+@media (max-width: 992px) {
+  .client {
+    padding: 40px;
+  }
+}
+@media (max-width: 768px) {
+  .titleContainer {
+    width: 100%;
+  }
+}

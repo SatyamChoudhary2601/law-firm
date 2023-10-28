@@ -1,0 +1,19 @@
+.team {
+  padding: 0px 150px;
+  margin-bottom: 170px;
+}
+.teamCard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 96px;
+  column-gap: 20px;
+  row-gap: 32px;
+}
+
+@media (max-width: 992px) {
+  .team {
+    padding: 40px;
+  }
+}

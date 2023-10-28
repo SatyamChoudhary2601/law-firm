@@ -1,0 +1,49 @@
+.footer {
+  background-color: var(--color-black);
+  margin-top: 242px;
+}
+.wrapper {
+  padding: 120px 150px 80px 150px;
+}
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 41px;
+}
+.menuList {
+  list-style: none;
+  cursor: pointer;
+  color: var(--color-white);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 162.523%;
+}
+.menuList:hover {
+  color: var(--color-orange);
+  transition: 0.2s ease-in;
+}
+.socialIcons {
+  gap: 23px;
+}
+.footerText {
+  gap: 25px;
+  margin-top: 62px;
+}
+.para {
+  color: var(--color-white);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 20px;
+}
+@media (max-width: 992px) {
+  .wrapper {
+    padding: 40px;
+  }
+}

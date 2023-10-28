@@ -1,0 +1,20 @@
+.btn {
+  background-color: var(--color-orange);
+  border: none;
+  border-radius: 43px;
+  width: 137px;
+  height: 62px;
+
+  color: var(--color-black);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 162.523%;
+  margin-right: 6px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #ffbc11;
+  transition: 1s all;
+}

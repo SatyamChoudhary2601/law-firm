@@ -1,0 +1,31 @@
+.teamCard {
+  width: 300px;
+  height: 109px;
+  display: flex;
+  align-items: center;
+  padding: 0px 26px;
+  gap: 20px;
+  border-radius: 14px;
+  cursor: pointer;
+  transition: 0.5s all;
+}
+.teamCard:hover {
+  background-color: var(--color-gray);
+}
+.active {
+  background: var(--color-orange);
+}
+.imgContainer {
+}
+.img {
+  width: 68px;
+  height: 68px;
+}
+.teamDetail {
+}
+
+@media (max-width: 992px) {
+  .teamCard {
+    flex-wrap: wrap;
+  }
+}
